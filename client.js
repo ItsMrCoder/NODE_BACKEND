@@ -1,6 +1,5 @@
-// clients are the one that sends requests to the server and receives responses. They can be web browser
-// s, mobile apps, or any other software that interacts with the server over a network. Clients typically use HTTP or HTTPS protocols to communicate with the server, sending requests for resources or data and receiving responses in return.
-//server are the ones that listen for incoming requests from clients, process those requests, and send back appropriate responses. Servers can be web servers, application servers, or database servers, among others. They handle the business logic, data storage, and other backend operations required to fulfill client requests.
+//Clients are the one that sends requests to the server and receives responses. They can be web browsers, mobile apps, or any other software that interacts with the server over a network. Clients typically use HTTP or HTTPS protocols to communicate with the server, sending requests for resources or data and receiving responses in return.
+//Servers are the ones that listen for incoming requests from clients, process those requests, and send back appropriate responses. Servers can be web servers, application servers, or database servers, among others. They handle the business logic, data storage, and other backend operations required to fulfill client requests.
 
 
 
@@ -18,7 +17,7 @@
 
 //client.js..........server.js
 //method3 : get
-//// respons2e bod3y is2 going to be in 7js2on
+//// responsivee body is going to be in json
 
 const getServerHealth = async () => {
     try{
