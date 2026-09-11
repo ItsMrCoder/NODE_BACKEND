@@ -9,10 +9,9 @@
 const http = require('http');
 
 // Array of post objects
-const posts = [{ title: 'First Post', content: 'He\'s a cheeky boy' }, { title: 'Second Post', content: 'He has a big head' },
-];
+const posts = [{ title: 'First Post', content: 'He\'s a cheeky boy' }, { title: 'Second Post', content: 'He has a big head' }];
 
-const users = [{ name: 'Sola', age: 30 }, { name: 'Kachi', age: 25 },];
+const users = [{ name: 'Sola', age: 30 }, { name: 'Kachi', age: 25 }];
 
 const server = http.createServer((req, res) => {
   const requestedUrl = req.url;
